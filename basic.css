@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Yu Mincho;
+    text-align: center;
+}
+.title{
+    margin-top: -60px;
+    margin-bottom: -70px;
+    line-height: 2;
+}
+.backgrounds-line{
+    height: 22.5px;
+    width: auto;
+    background-color: #ffa31a;
+    margin-bottom: 10px;
+}
+.body-background{
+    background: linear-gradient(to right, #fff 0%, #fff 10%, #ff6634 10%, #ff6634 40%, #fff 40%, #fff 100%);
+}
+img{
+    margin-left: 10%;
+    width: 30%;
+    aspect-ratio: 6 / 1;
+}
+.contents{
+    font-size: 0;
+}
+.body-contents{
+    width: 20%;
+    aspect-ratio: 6 / 1;
+    margin-top: 100px;
+    margin-left: 15%;
+
+}
+
+.footer{
+    background-color: #ffb442;
+    text-align: center;
+    padding: 25px 0;
+    border: auto;
+    margin-top: 20px;
+}
+small{
+    color: white;
+    font-size: 25px;
+}
