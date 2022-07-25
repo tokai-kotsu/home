@@ -2,6 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@500&family=Shippori+Mincho:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Shippori+Mincho:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
 
 body{
     margin: 0;
@@ -12,7 +17,7 @@ body{
     font-family: YuMincho , Yu Mincho;
     font-size: 5vw;
     font-weight: bold;
-    margin: -5px 0 -25px 0;
+    margin: 0 0 0 0;
 }
 .backgrounds-line{
     height: 2.5vw;
@@ -20,59 +25,90 @@ body{
     background-color: #ffa31a;
     margin-top: 0;
 }
-.twitter-follow-button{
-    display: inline-block;
-    padding-top: 0.5vw;
-    margin-left: 65%;
+.heading-img{
+    width: 100%;
+    margin: 0;
 }
-.youtube-subscribe-button{
-    display: inline-block;
-    font-family: 'Noto Sans JP', sans-serif;
-    background-color: #f50000;
-    color: white;
+.sns-follow{
     text-decoration: none;
-    position: absolute;
-    top: 6vw;
-    border: solid;
-    border-color: #f50000;
-    border-radius: 0.75vw;
+    display: block;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    color: black;
     white-space: nowrap;
+    width: auto;
+    margin-left: 42.5vw;
+}
+.twitter-follow{
+    font-family: 'Baloo Tamma 2', cursive;
+    color: rgb(0, 191, 255);
+    font-weight: 600;
+    font-size: 6vw;
+}
+.youtube-follow{
+    font-family: 'Anton', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 5vw;
+}
+.instagram-follow{
+    font-family: 'Playball', cursive;
+    color: rgb(255, 217, 0);
+    margin-top: 3vw;
+    font-size: 7vw;
+    font-weight: 500;
+}
+.sns-icon{
+    width: 6vw;
+    height: 6vw;
+    padding-right: 3vw;
+    display: inline;
+    vertical-align: middle;
+}
+.sns-sentence{
+    vertical-align: middle;
 }
 .body-background{
     background: linear-gradient(to right, #fff 0%, #fff 10%, #ff6634 10%, #ff6634 40%, #fff 40%, #fff 100%);
 }
-img{
+.body-contents{
+    width: 25%;
+    aspect-ratio: 6 / 1;
+    margin-top: 45px;
+    margin-left: 10%;
+}
+.icon{
     margin-left: 10%;
     width: 30%;
     aspect-ratio: 6 / 1;
 }
+.contents-icon{
+    margin-top: 30px;
+}
 .contents{
     font-size: 0;
 }
-.last-contents{
-    margin-bottom: 50px;
+.heading-bodycontents{
+    margin-top: 13.5%;
 }
-.body-contents{
-    width: 20%;
-    aspect-ratio: 6 / 1;
-    margin-top: 20px;
-    margin-left: 15%;
-
+.info-table{
+    margin-left: 15vw;
+    vertical-align: middle;
+    text-align: left;
 }
 .info-title{
     font-family: 'Cormorant SC', serif;
     font-size: 4.5vw;
     color: white;
-    margin: 10px 0 0 15%;
     font-weight: 300;
+    width: 30vw;
 }
 .info-sentence{
     font-family: 'Shippori Mincho', serif;
     font-size: 3vw;
     color: black;
-    margin: -60px 0 0 45%;
     white-space: nowrap;
     font-weight: bold;
+    width: 60vw;
 }
 .iframe{
     position: relative;
@@ -87,13 +123,60 @@ img{
     margin: 10px 0 0 15%;
     font-weight: 400;
 }
-.twitter-follow{
-    margin-left: 30%;
-}
 .diary-contents{
     height: 50vh;
     width: 50vw;
     background-color: white;
+}
+.photograph{
+    margin-left: 9.5vw; 
+    display: block;   
+}
+.photos-contents{
+    aspect-ratio: 16 / 9;
+    width: 40vw;
+    padding: 1vw;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.tweet{
+    display: inline-block;
+    margin-left: 30vw;
+    width: 40vw;
+}
+.diary-box{
+    width: 70vw;
+    height: 15vw;
+    margin-left: 15vw;
+    background-color: #f2f2f2;
+    border-radius: 30px;
+    border: solid 4px #999;
+}
+.diary-table{
+    font-family: 'Zen Kurenaido', sans-serif;
+    font-size: 1.5vw;
+    color: #111;
+    border: solid 1px #000;
+    width: 65vw;
+    height: 15vw;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+.diary-title, .diary-day{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: solid 1px #111;
+}
+.day-diary{
+    width: 7.5vw;
+}
+.title-diary{
+    font-size: 3vw;
 }
 .footer{
     background-color: #ffb442;
@@ -101,8 +184,16 @@ img{
     padding: 25px 0;
     border: auto;
     margin-top: 20px;
+    font-family: 'Kiwi Maru', serif;
 }
 small{
     color: white;
     font-size: 25px;
+}
+.contact-us{
+    color: white;
+    font-size: 1.5vw;
+}
+.boild{
+    font-weight: 600;
 }
